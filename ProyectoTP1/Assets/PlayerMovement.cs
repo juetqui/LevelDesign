@@ -18,8 +18,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if(Input.GetKeyDown(KeyCode.Alpha1)) transform.position = _waypoints[0].position;
-        if(Input.GetKeyDown(KeyCode.Alpha2)) transform.position = _waypoints[1].position;
-        if(Input.GetKeyDown(KeyCode.Alpha3)) transform.position = _waypoints[2].position;
+        if(Input.GetKeyDown(KeyCode.Alpha3)) transform.position = _waypoints[1].position;
+        if(Input.GetKeyDown(KeyCode.Alpha2)) transform.position = _waypoints[2].position;
     }
 
     private Vector3 GetMovement()

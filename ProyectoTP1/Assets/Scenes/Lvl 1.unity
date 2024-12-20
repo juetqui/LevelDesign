@@ -577,7 +577,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &26288966
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17838,6 +17838,7 @@ GameObject:
   - component: {fileID: 1066423825}
   - component: {fileID: 1066423824}
   - component: {fileID: 1066423826}
+  - component: {fileID: 1066423827}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -17992,6 +17993,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _cameraTransform: {fileID: 963194228}
+--- !u!114 &1066423827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066423819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e831e32dfdc9cf2458c6e9fd12268f2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1066554463 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5438370314315977094, guid: 40e30e6256435ea40b195e1601842782, type: 3}
